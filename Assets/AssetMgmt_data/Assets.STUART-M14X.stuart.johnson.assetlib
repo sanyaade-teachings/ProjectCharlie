@@ -1,0 +1,738 @@
+{
+    "Configuration": {
+        "Name": "Assets",
+        "FormatVersion": 2,
+        "LastEditTime": 1404126869560379100
+    },
+    "Assets": {
+        "Fonts/Arial32_00.dds": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 3915487704,
+                "TimeStamp": 1402440766000000000,
+                "LastEditTime": 1404206942444194000
+            },
+            "Texture": {
+                "FileFormat": "DDS",
+                "Width": 256,
+                "Height": 256,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "pcdx9": {
+                    "None": {
+
+                    }
+                },
+                "ios": {
+                    "None": {
+
+                    }
+                },
+                "android": {
+                    "None": {
+
+                    }
+                }
+            }
+        },
+        "Fonts/Arial_18_00.dds": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 1201484646,
+                "TimeStamp": 1402440766000000000,
+                "LastEditTime": 1404206886981021700
+            },
+            "Texture": {
+                "FileFormat": "DDS",
+                "Width": 256,
+                "Height": 128,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "pcdx9": {
+                    "None": {
+
+                    }
+                },
+                "ios": {
+                    "None": {
+
+                    }
+                },
+                "android": {
+                    "None": {
+
+                    }
+                }
+            }
+        },
+        "Fonts/Arial_22_00.dds": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 1037186940,
+                "TimeStamp": 1402440766000000000,
+                "LastEditTime": 1404206886981021700
+            },
+            "Texture": {
+                "FileFormat": "DDS",
+                "Width": 256,
+                "Height": 128,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "pcdx9": {
+                    "None": {
+
+                    }
+                },
+                "ios": {
+                    "None": {
+
+                    }
+                },
+                "android": {
+                    "None": {
+
+                    }
+                }
+            }
+        },
+        "Fonts/CourierNew_18_00.dds": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 1705425836,
+                "TimeStamp": 1402440766000000000,
+                "LastEditTime": 1404206886981021700
+            },
+            "Texture": {
+                "FileFormat": "DDS",
+                "Width": 128,
+                "Height": 128,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "pcdx9": {
+                    "None": {
+
+                    }
+                },
+                "ios": {
+                    "None": {
+
+                    }
+                },
+                "android": {
+                    "None": {
+
+                    }
+                }
+            }
+        },
+        "Fonts/DebugFont_00.dds": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 345883119,
+                "TimeStamp": 1402440766000000000,
+                "LastEditTime": 1404206886981021700
+            },
+            "Texture": {
+                "FileFormat": "DDS",
+                "Width": 256,
+                "Height": 64,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "pcdx9": {
+                    "None": {
+
+                    }
+                },
+                "ios": {
+                    "None": {
+
+                    }
+                },
+                "android": {
+                    "None": {
+
+                    }
+                }
+            }
+        },
+        "Meshes/track11k.vmesh": {
+            "AssetType": "StaticMesh",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+                    "Meshes/track11k.vmesh_data/materials.xml",
+                    "Shaders/BaseShaders.ShaderLib",
+                    "Shaders/vMaterial.ShaderLib",
+                    "Textures/grid01.jpg"
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 1470458628,
+                "TimeStamp": 1374053038000000000,
+                "LastEditTime": 1404126920924316900
+            },
+            "Model": {
+                "LODSwitchDistances": [
+
+                ]
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Models/charlie.model": {
+            "AssetType": "Model",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+                    "Models/charlie.model_data/materials.xml",
+                    "Shaders/BaseShaders.ShaderLib",
+                    "Shaders/vMaterial.ShaderLib",
+                    "Textures/Male_cartoon_afro_Diffuse.tga",
+                    "Textures/Male_cartoon_afro_Specular.tga"
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 319614637,
+                "TimeStamp": 1381770160256343000,
+                "LastEditTime": 1404126920580297200
+            },
+            "Model": {
+                "LODSwitchDistances": [
+
+                ]
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Models/Misc/CharHeight.Model": {
+            "AssetType": "Model",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+                    "Models/Misc/CharHeight.Model_data/materials.xml",
+                    "Shaders/BaseShaders.ShaderLib",
+                    "Shaders/vMaterial.ShaderLib",
+                    "Textures/grey.bmp"
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 2100221746,
+                "TimeStamp": 1402440766000000000,
+                "LastEditTime": 1404126920660301800
+            },
+            "Model": {
+                "LODSwitchDistances": [
+
+                ]
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Models/Misc/Cube.Model": {
+            "AssetType": "Model",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+                    "Models/Misc/Cube.Model_data/materials.xml",
+                    "Shaders/BaseShaders.ShaderLib",
+                    "Shaders/vMaterial.ShaderLib",
+                    "Textures/colors/Color_Orange.dds"
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 4108779169,
+                "TimeStamp": 1402440766000000000,
+                "LastEditTime": 1404126920718305100
+            },
+            "Model": {
+                "LODSwitchDistances": [
+
+                ]
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Models/Misc/Plane.Model": {
+            "AssetType": "Model",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+                    "Models/Misc/Plane.Model_data/materials.xml",
+                    "Shaders/vMaterial.ShaderLib",
+                    "Textures/grid01.jpg"
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 2916591323,
+                "TimeStamp": 1402440766000000000,
+                "LastEditTime": 1404126920756307300
+            },
+            "Model": {
+                "LODSwitchDistances": [
+
+                ]
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Models/Misc/Point.Model": {
+            "AssetType": "Model",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+                    "Models/Misc/Point.Model_data/materials.xml",
+                    "Shaders/BaseShaders.ShaderLib",
+                    "Shaders/vMaterial.ShaderLib",
+                    "Textures/grid01.jpg"
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 2577180651,
+                "TimeStamp": 1402440766000000000,
+                "LastEditTime": 1404126920818310900
+            },
+            "Model": {
+                "LODSwitchDistances": [
+
+                ]
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Models/Misc/Sphere.Model": {
+            "AssetType": "Model",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+                    "Models/Misc/Sphere.Model_data/materials.xml",
+                    "Shaders/BaseShaders.ShaderLib",
+                    "Shaders/vMaterial.ShaderLib",
+                    "Textures/blubber.dds"
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 3366308346,
+                "TimeStamp": 1402440766000000000,
+                "LastEditTime": 1404126920846312500
+            },
+            "Model": {
+                "LODSwitchDistances": [
+
+                ]
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Models/Misc/Torus.Model": {
+            "AssetType": "Model",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+                    "Models/Misc/Torus.Model_data/materials.xml",
+                    "Shaders/BaseShaders.ShaderLib",
+                    "Shaders/vMaterial.ShaderLib",
+                    "Textures/grid01.jpg"
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 3276996417,
+                "TimeStamp": 1402440766000000000,
+                "LastEditTime": 1404126920884314600
+            },
+            "Model": {
+                "LODSwitchDistances": [
+
+                ]
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "shaders/Misc_00/MultAssigned.bmp": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 2165401693,
+                "TimeStamp": 1402440766000000000,
+                "LastEditTime": 1404126919250221200
+            },
+            "Texture": {
+                "FileFormat": "BMP",
+                "Width": 128,
+                "Height": 128,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Textures/Arrow_Inner.dds": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 2222774565,
+                "TimeStamp": 1395973004000000000,
+                "LastEditTime": 1404212752719522700
+            },
+            "Texture": {
+                "FileFormat": "DDS",
+                "Width": 256,
+                "Height": 256,
+                "HasAlpha": true,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Textures/Arrow_Outer.dds": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 3474890429,
+                "TimeStamp": 1395973004000000000,
+                "LastEditTime": 1404212752711522200
+            },
+            "Texture": {
+                "FileFormat": "DDS",
+                "Width": 256,
+                "Height": 256,
+                "HasAlpha": true,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Textures/grid01.jpg": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 1792375473,
+                "TimeStamp": 1402440766000000000,
+                "LastEditTime": 1404126918944203700
+            },
+            "Texture": {
+                "FileFormat": "JPG",
+                "Width": 160,
+                "Height": 160,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Textures/Male_cartoon_afro_Diffuse.dds": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 3546944877,
+                "TimeStamp": 1372417355731537500,
+                "LastEditTime": 1404126919046209500
+            },
+            "Texture": {
+                "FileFormat": "DDS",
+                "Width": 512,
+                "Height": 512,
+                "HasAlpha": true,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Textures/Male_cartoon_afro_Diffuse.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 2267533189,
+                "TimeStamp": 1372417355739544100,
+                "LastEditTime": 1404126919096212400
+            },
+            "Texture": {
+                "FileFormat": "TGA",
+                "Width": 512,
+                "Height": 512,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Textures/Male_cartoon_afro_Specular.dds": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 497876695,
+                "TimeStamp": 1372417355742546100,
+                "LastEditTime": 1404126919138214800
+            },
+            "Texture": {
+                "FileFormat": "DDS",
+                "Width": 512,
+                "Height": 512,
+                "HasAlpha": true,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Textures/Male_cartoon_afro_Specular.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 457210064,
+                "TimeStamp": 1372417355747549400,
+                "LastEditTime": 1404126919189217700
+            },
+            "Texture": {
+                "FileFormat": "TGA",
+                "Width": 512,
+                "Height": 512,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Textures/UI/White.dds": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 2620166608,
+                "TimeStamp": 1402440766000000000,
+                "LastEditTime": 1404207204696193900
+            },
+            "Texture": {
+                "FileFormat": "DDS",
+                "Width": 8,
+                "Height": 8,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        }
+    },
+    "TrackedFiles": {
+        "Meshes/track11k.vmesh_data/materials.xml": {
+            "Hash": 0,
+            "TimeStamp": 1403532527251169800,
+            "LastEditTime": 1404126914885971600
+        },
+        "Models/charlie.model_data/materials.xml": {
+            "Hash": 0,
+            "TimeStamp": 1382028596086177100,
+            "LastEditTime": 1404126914885971600
+        },
+        "Models/Misc/CharHeight.Model_data/materials.xml": {
+            "Hash": 0,
+            "TimeStamp": 1402440766000000000,
+            "LastEditTime": 1404126914885971600
+        },
+        "Models/Misc/Cube.Model_data/materials.xml": {
+            "Hash": 0,
+            "TimeStamp": 1402440766000000000,
+            "LastEditTime": 1404126914885971600
+        },
+        "Models/Misc/Plane.Model_data/materials.xml": {
+            "Hash": 0,
+            "TimeStamp": 1402440766000000000,
+            "LastEditTime": 1404126914885971600
+        },
+        "Models/Misc/Point.Model_data/materials.xml": {
+            "Hash": 0,
+            "TimeStamp": 1402440766000000000,
+            "LastEditTime": 1404126914885971600
+        },
+        "Models/Misc/Sphere.Model_data/materials.xml": {
+            "Hash": 0,
+            "TimeStamp": 1402440766000000000,
+            "LastEditTime": 1404126914885971600
+        },
+        "Models/Misc/Torus.Model_data/materials.xml": {
+            "Hash": 0,
+            "TimeStamp": 1402440766000000000,
+            "LastEditTime": 1404126914885971600
+        },
+        "Textures/blubber.dds": {
+            "Hash": 0,
+            "TimeStamp": 0,
+            "LastEditTime": 1404126920882314500
+        },
+        "Textures/grey.bmp": {
+            "Hash": 0,
+            "TimeStamp": 0,
+            "LastEditTime": 1404126920718305100
+        },
+        "Textures/colors/Color_Orange.dds": {
+            "Hash": 0,
+            "TimeStamp": 0,
+            "LastEditTime": 1404126920756307300
+        }
+    }
+}

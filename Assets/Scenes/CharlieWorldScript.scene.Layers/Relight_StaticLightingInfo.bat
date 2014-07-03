@@ -1,0 +1,1 @@
+vLux.exe "" -project "C:\ProjectCharlie\Assets" -tempfolder "C:\ProjectCharlie\Assets\Scenes\CharlieWorldNoScript.scene.Layers" -out "Scenes\CharlieWorldNoScript" -quiet -minimized -config "C:\ProjectCharlie\Assets\Scenes\CharlieWorldNoScript.scene.Layers\lighting.cfg"

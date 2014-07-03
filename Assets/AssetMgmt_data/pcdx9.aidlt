@@ -1,0 +1,25 @@
+fonts/arial32_00.dds	Fonts/Arial32_00.dds	sRGB=false
+fonts/arial_18_00.dds	Fonts/Arial_18_00.dds	sRGB=false
+fonts/arial_22_00.dds	Fonts/Arial_22_00.dds	sRGB=false
+fonts/couriernew_18_00.dds	Fonts/CourierNew_18_00.dds	sRGB=false
+fonts/debugfont_00.dds	Fonts/DebugFont_00.dds	sRGB=false
+meshes/track11k.vmesh	Meshes/track11k.vmesh	LODSwitchDistances=
+models/charlie.model	Models/charlie.model	LODSwitchDistances=
+models/misc/charheight.model	Models/Misc/CharHeight.Model	LODSwitchDistances=
+models/misc/cube.model	Models/Misc/Cube.Model	LODSwitchDistances=
+models/misc/plane.model	Models/Misc/Plane.Model	LODSwitchDistances=
+models/misc/point.model	Models/Misc/Point.Model	LODSwitchDistances=
+models/misc/sphere.model	Models/Misc/Sphere.Model	LODSwitchDistances=
+models/misc/torus.model	Models/Misc/Torus.Model	LODSwitchDistances=
+particles/arrow_inner.dds	AssetMgmt_data/transformed/arrow_inner88#6t4nclgdtc.dds	sRGB=false
+particles/arrow_outer.dds	AssetMgmt_data/transformed/arrow_outerdz7nzrnclgdtc.dds	sRGB=false
+particles/effect02.vpfx	Particles/effect02.vpfx	
+shaders/misc_00/multassigned.bmp	AssetMgmt_data/transformed/multassigned824c8cnclgdtc.dds	sRGB=false
+textures/arrow_inner.dds	AssetMgmt_data/transformed/arrow_inner88#6t4nclgdtc.dds	sRGB=false
+textures/arrow_outer.dds	AssetMgmt_data/transformed/arrow_outerdz7nzrnclgdtc.dds	sRGB=false
+textures/grid01.jpg	AssetMgmt_data/transformed/grid016ppcvq4clgdtc.dds	sRGB=false
+textures/male_cartoon_afro_diffuse.dds	AssetMgmt_data/transformed/male_cartoon_afro_diffuf6vjpfnclgdtc.dds	sRGB=false
+textures/male_cartoon_afro_diffuse.tga	AssetMgmt_data/transformed/male_cartoon_afro_diffu8g9zhjnclgdtc.dds	sRGB=false
+textures/male_cartoon_afro_specular.dds	AssetMgmt_data/transformed/male_cartoon_afro_specu1wc7zvxclgdtc.dds	sRGB=false
+textures/male_cartoon_afro_specular.tga	AssetMgmt_data/transformed/male_cartoon_afro_specu1qj3sv0clgdtc.dds	sRGB=false
+textures/ui/white.dds	AssetMgmt_data/transformed/white9sc4kv0clgdtc.dds	sRGB=false

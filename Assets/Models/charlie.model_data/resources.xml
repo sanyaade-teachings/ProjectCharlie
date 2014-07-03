@@ -1,0 +1,11 @@
+<root>
+    <Resources Version="1" Count="7" PathType="Project">
+        <Resource Manager="FILE" Filename="Models/charlie.model_data\materials.xml" OwnerRes="4" Size="961" />
+        <Resource Manager="EffectLibs" Filename="Shaders\BaseShaders.ShaderLib" Size="62776" />
+        <Resource Manager="Textures" Filename="Textures\Male_cartoon_afro_Diffuse.tga" CustomInt="1,64" Size="1398100" />
+        <Resource Manager="Textures" Filename="Textures\Male_cartoon_afro_Specular.tga" CustomInt="1,0" Size="1398100" />
+        <Resource Manager="Static/Dynamic Meshes" Filename="Models/charlie.model" CustomInt="1,2" Size="112" />
+        <Resource Manager="EffectLibs" Filename="Shaders\MobileShaders.ShaderLib" Size="3522784" />
+        <Resource Manager="EffectLibs" Filename="Shaders\vMaterial.ShaderLib" Size="390384" />
+    </Resources>
+</root>

@@ -1,0 +1,1 @@
+LoadEnginePlugin:../Bin/win32_vs2010_anarchy/Dev/DX9/CharlieNPCPlugin
