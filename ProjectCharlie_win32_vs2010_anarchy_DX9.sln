@@ -1,0 +1,40 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CharlieNoScriptAppDX9", "Source\CharlieNoScriptApp\CharlieNoScriptAppDX9_win32_vs2010_anarchy.vcxproj", "{F77B6741-98BA-40CC-A188-0E5324CD2176}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CharliePartScriptAppDX9", "Source\CharliePartScriptApp\CharliePartScriptAppDX9_win32_vs2010_anarchy.vcxproj", "{88692507-9C78-4158-AAF3-1176F4A706A1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CharlieNPCPluginDX9", "Source\CharlieNPCPlugin\CharlieNPCPluginDX9_win32_vs2010_anarchy.vcxproj", "{CAD069D3-B36A-4833-8205-77AA9EDDD267}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectCharlieAppDX9", "Source\ProjectCharlieApp\ProjectCharlieAppDX9_win32_vs2010_anarchy.vcxproj", "{BD88A2F5-9A0F-46ED-B8B2-CCD9F8152F2E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CAD069D3-B36A-4833-8205-77AA9EDDD267} = {CAD069D3-B36A-4833-8205-77AA9EDDD267}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|win32 = Debug|win32
+		Dev|win32 = Dev|win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F77B6741-98BA-40CC-A188-0E5324CD2176}.Debug|win32.ActiveCfg = Debug|win32
+		{F77B6741-98BA-40CC-A188-0E5324CD2176}.Debug|win32.Build.0 = Debug|win32
+		{F77B6741-98BA-40CC-A188-0E5324CD2176}.Dev|win32.ActiveCfg = Dev|win32
+		{F77B6741-98BA-40CC-A188-0E5324CD2176}.Dev|win32.Build.0 = Dev|win32
+		{88692507-9C78-4158-AAF3-1176F4A706A1}.Debug|win32.ActiveCfg = Debug|win32
+		{88692507-9C78-4158-AAF3-1176F4A706A1}.Debug|win32.Build.0 = Debug|win32
+		{88692507-9C78-4158-AAF3-1176F4A706A1}.Dev|win32.ActiveCfg = Dev|win32
+		{88692507-9C78-4158-AAF3-1176F4A706A1}.Dev|win32.Build.0 = Dev|win32
+		{CAD069D3-B36A-4833-8205-77AA9EDDD267}.Debug|win32.ActiveCfg = Debug|win32
+		{CAD069D3-B36A-4833-8205-77AA9EDDD267}.Debug|win32.Build.0 = Debug|win32
+		{CAD069D3-B36A-4833-8205-77AA9EDDD267}.Dev|win32.ActiveCfg = Dev|win32
+		{CAD069D3-B36A-4833-8205-77AA9EDDD267}.Dev|win32.Build.0 = Dev|win32
+		{BD88A2F5-9A0F-46ED-B8B2-CCD9F8152F2E}.Debug|win32.ActiveCfg = Debug|win32
+		{BD88A2F5-9A0F-46ED-B8B2-CCD9F8152F2E}.Debug|win32.Build.0 = Debug|win32
+		{BD88A2F5-9A0F-46ED-B8B2-CCD9F8152F2E}.Dev|win32.ActiveCfg = Dev|win32
+		{BD88A2F5-9A0F-46ED-B8B2-CCD9F8152F2E}.Dev|win32.Build.0 = Dev|win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

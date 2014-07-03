@@ -1,0 +1,58 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectCharlieApp", "Source\ProjectCharlieApp\ProjectCharlieApp_android_arm_vs2010_anarchy.vcxproj", "{BD88A2F5-9A0F-46ED-B8B2-CCD9F8152F2E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CAD069D3-B36A-4833-8205-77AA9EDDD267} = {CAD069D3-B36A-4833-8205-77AA9EDDD267}
+	EndProjectSection
+EndProject
+Project("{04C05166-7505-4D5C-B9B8-B6B2C06869CD}") = "CharlieNPCPlugin", "Source\CharlieNPCPlugin\CharlieNPCPlugin_android_arm_vs2010_anarchy.vcxproj", "{CAD069D3-B36A-4833-8205-77AA9EDDD267}"
+EndProject
+Project("{B2D5D5F4-0D67-418B-8C26-0F8E3C5B0328}") = "CharlieNoScriptApp", "Source\CharlieNoScriptApp\CharlieNoScriptApp_android_arm_vs2010_anarchy.vcxproj", "{CDAF523C-D4A1-4D0D-8A42-07A160A307BA}"
+EndProject
+Project("{BDD6CB39-8D36-460E-B939-D62B05105AB5}") = "CharliePartScriptApp", "Source\CharliePartScriptApp\CharliePartScriptApp_android_arm_vs2010_anarchy.vcxproj", "{45990546-66EC-4836-A322-4B8E86E1923A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|hkAndroid = Debug|hkAndroid
+		Dev|hkAndroid = Dev|hkAndroid
+		Release|hkAndroid = Release|hkAndroid
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD88A2F5-9A0F-46ED-B8B2-CCD9F8152F2E}.Debug|hkAndroid.ActiveCfg = Debug|hkAndroid
+		{BD88A2F5-9A0F-46ED-B8B2-CCD9F8152F2E}.Debug|hkAndroid.Build.0 = Debug|hkAndroid
+		{BD88A2F5-9A0F-46ED-B8B2-CCD9F8152F2E}.Dev|hkAndroid.ActiveCfg = Dev|hkAndroid
+		{BD88A2F5-9A0F-46ED-B8B2-CCD9F8152F2E}.Dev|hkAndroid.Build.0 = Dev|hkAndroid
+		{BD88A2F5-9A0F-46ED-B8B2-CCD9F8152F2E}.Release|hkAndroid.ActiveCfg = Release|hkAndroid
+		{BD88A2F5-9A0F-46ED-B8B2-CCD9F8152F2E}.Release|hkAndroid.Build.0 = Release|hkAndroid
+		{CAD069D3-B36A-4833-8205-77AA9EDDD267}.Debug|hkAndroid.ActiveCfg = Debug|hkAndroid
+		{CAD069D3-B36A-4833-8205-77AA9EDDD267}.Debug|hkAndroid.Build.0 = Debug|hkAndroid
+		{CAD069D3-B36A-4833-8205-77AA9EDDD267}.Debug|hkAndroid.Deploy.0 = Debug|hkAndroid
+		{CAD069D3-B36A-4833-8205-77AA9EDDD267}.Dev|hkAndroid.ActiveCfg = Dev|hkAndroid
+		{CAD069D3-B36A-4833-8205-77AA9EDDD267}.Dev|hkAndroid.Build.0 = Dev|hkAndroid
+		{CAD069D3-B36A-4833-8205-77AA9EDDD267}.Dev|hkAndroid.Deploy.0 = Dev|hkAndroid
+		{CAD069D3-B36A-4833-8205-77AA9EDDD267}.Release|hkAndroid.ActiveCfg = Release|hkAndroid
+		{CAD069D3-B36A-4833-8205-77AA9EDDD267}.Release|hkAndroid.Build.0 = Release|hkAndroid
+		{CAD069D3-B36A-4833-8205-77AA9EDDD267}.Release|hkAndroid.Deploy.0 = Release|hkAndroid
+		{CDAF523C-D4A1-4D0D-8A42-07A160A307BA}.Debug|hkAndroid.ActiveCfg = Debug|hkAndroid
+		{CDAF523C-D4A1-4D0D-8A42-07A160A307BA}.Debug|hkAndroid.Build.0 = Debug|hkAndroid
+		{CDAF523C-D4A1-4D0D-8A42-07A160A307BA}.Debug|hkAndroid.Deploy.0 = Debug|hkAndroid
+		{CDAF523C-D4A1-4D0D-8A42-07A160A307BA}.Dev|hkAndroid.ActiveCfg = Dev|hkAndroid
+		{CDAF523C-D4A1-4D0D-8A42-07A160A307BA}.Dev|hkAndroid.Build.0 = Dev|hkAndroid
+		{CDAF523C-D4A1-4D0D-8A42-07A160A307BA}.Dev|hkAndroid.Deploy.0 = Dev|hkAndroid
+		{CDAF523C-D4A1-4D0D-8A42-07A160A307BA}.Release|hkAndroid.ActiveCfg = Release|hkAndroid
+		{CDAF523C-D4A1-4D0D-8A42-07A160A307BA}.Release|hkAndroid.Build.0 = Release|hkAndroid
+		{CDAF523C-D4A1-4D0D-8A42-07A160A307BA}.Release|hkAndroid.Deploy.0 = Release|hkAndroid
+		{45990546-66EC-4836-A322-4B8E86E1923A}.Debug|hkAndroid.ActiveCfg = Debug|hkAndroid
+		{45990546-66EC-4836-A322-4B8E86E1923A}.Debug|hkAndroid.Build.0 = Debug|hkAndroid
+		{45990546-66EC-4836-A322-4B8E86E1923A}.Debug|hkAndroid.Deploy.0 = Debug|hkAndroid
+		{45990546-66EC-4836-A322-4B8E86E1923A}.Dev|hkAndroid.ActiveCfg = Dev|hkAndroid
+		{45990546-66EC-4836-A322-4B8E86E1923A}.Dev|hkAndroid.Build.0 = Dev|hkAndroid
+		{45990546-66EC-4836-A322-4B8E86E1923A}.Dev|hkAndroid.Deploy.0 = Dev|hkAndroid
+		{45990546-66EC-4836-A322-4B8E86E1923A}.Release|hkAndroid.ActiveCfg = Release|hkAndroid
+		{45990546-66EC-4836-A322-4B8E86E1923A}.Release|hkAndroid.Build.0 = Release|hkAndroid
+		{45990546-66EC-4836-A322-4B8E86E1923A}.Release|hkAndroid.Deploy.0 = Release|hkAndroid
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

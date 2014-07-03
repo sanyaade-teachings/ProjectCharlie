@@ -1,0 +1,22 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectCharlieApp", "Source\ProjectCharlieApp\ProjectCharlieApp_android_x86_vs2010_anarchy.vcxproj", "{BD88A2F5-9A0F-46ED-B8B2-CCD9F8152F2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|hkAndroid = Debug|hkAndroid
+		Dev|hkAndroid = Dev|hkAndroid
+		Release|hkAndroid = Release|hkAndroid
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD88A2F5-9A0F-46ED-B8B2-CCD9F8152F2E}.Debug|hkAndroid.ActiveCfg = Debug|hkAndroid
+		{BD88A2F5-9A0F-46ED-B8B2-CCD9F8152F2E}.Debug|hkAndroid.Build.0 = Debug|hkAndroid
+		{BD88A2F5-9A0F-46ED-B8B2-CCD9F8152F2E}.Dev|hkAndroid.ActiveCfg = Dev|hkAndroid
+		{BD88A2F5-9A0F-46ED-B8B2-CCD9F8152F2E}.Dev|hkAndroid.Build.0 = Dev|hkAndroid
+		{BD88A2F5-9A0F-46ED-B8B2-CCD9F8152F2E}.Release|hkAndroid.ActiveCfg = Release|hkAndroid
+		{BD88A2F5-9A0F-46ED-B8B2-CCD9F8152F2E}.Release|hkAndroid.Build.0 = Release|hkAndroid
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
