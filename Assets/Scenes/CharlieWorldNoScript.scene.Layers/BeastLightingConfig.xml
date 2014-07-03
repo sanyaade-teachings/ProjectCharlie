@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<BeastSettingsDisplay xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Quality>High</Quality>
+  <ErnstApplyUpdates>Prompt</ErnstApplyUpdates>
+  <ExcludeInvisibleLayers>false</ExcludeInvisibleLayers>
+  <DirectIntensityScale>1</DirectIntensityScale>
+  <IndirectIntensityScale>1.2</IndirectIntensityScale>
+  <GlobalAmbientR>11</GlobalAmbientR>
+  <GlobalAmbientG>11</GlobalAmbientG>
+  <GlobalAmbientB>13</GlobalAmbientB>
+  <OutputGamma>1</OutputGamma>
+  <OutputLightmaps>true</OutputLightmaps>
+  <UseBumpLightmaps>false</UseBumpLightmaps>
+  <BumpLightmapIntensityScale>1</BumpLightmapIntensityScale>
+  <TexturePageSize>2048</TexturePageSize>
+  <TextureOutputFormat>RGB8</TextureOutputFormat>
+  <GlobalResolutionScaling>1</GlobalResolutionScaling>
+  <Equation>Modulate2x</Equation>
+  <GenerateLightMasks>false</GenerateLightMasks>
+  <OutputLightGrid>true</OutputLightGrid>
+  <OutputSimpleLightGrid>false</OutputSimpleLightGrid>
+  <EnableIndirectLighting>true</EnableIndirectLighting>
+  <DefaultShadowRadius>10</DefaultShadowRadius>
+</BeastSettingsDisplay>

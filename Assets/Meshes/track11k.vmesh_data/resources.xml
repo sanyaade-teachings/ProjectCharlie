@@ -1,9 +1,8 @@
 <root>
-    <Resources Version="1" Count="6" PathType="Project">
-        <Resource Manager="FILE" Filename="Meshes/track11k.vmesh_data\materials.xml" OwnerRes="4" Size="3934" />
-        <Resource Manager="EffectLibs" Filename="Shaders\BaseShaders.ShaderLib" Size="63088" />
-        <Resource Manager="EffectLibs" Filename="Shaders\MobileShaders.ShaderLib" Size="3540544" />
-        <Resource Manager="Textures" Filename="Textures\grid01.jpg" CustomInt="1,64" Size="87380" />
+    <Resources Version="1" Count="5" PathType="Project">
+        <Resource Manager="FILE" Filename="Meshes/track11k.vmesh_data\materials.xml" OwnerRes="3" Size="6208" />
+        <Resource Manager="EffectLibs" Filename="Shaders\MobileShadersFog.ShaderLib" Size="3540544" />
+        <Resource Manager="Textures" Filename="Textures\grid01.jpg" CustomInt="1,64" Size="5592404" />
         <Resource Manager="Static/Dynamic Meshes" Filename="Meshes/track11k.vmesh" CustomInt="1,1" Size="504" />
         <Resource Manager="EffectLibs" Filename="Shaders\vMaterial.ShaderLib" Size="392352" />
     </Resources>
