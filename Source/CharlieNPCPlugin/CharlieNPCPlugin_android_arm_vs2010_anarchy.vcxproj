@@ -49,14 +49,14 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dev|hkAndroid'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
-    <PlatformToolset>arm-linux-androideabi-4.8</PlatformToolset>
+    <PlatformToolset>arm-linux-androideabi-4.6</PlatformToolset>
     <AndroidAPILevel>android-10</AndroidAPILevel>
     <AndroidArch>armv7-a</AndroidArch>
     <AndroidStlType>gnustl_static</AndroidStlType>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|hkAndroid'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
-    <PlatformToolset>arm-linux-androideabi-4.8</PlatformToolset>
+    <PlatformToolset>arm-linux-androideabi-4.6</PlatformToolset>
     <AndroidAPILevel>android-10</AndroidAPILevel>
     <AndroidArch>armv7-a</AndroidArch>
     <AndroidStlType>gnustl_static</AndroidStlType>

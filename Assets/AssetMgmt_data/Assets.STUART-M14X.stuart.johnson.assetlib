@@ -19,7 +19,7 @@
             "File": {
                 "Hash": 3915487704,
                 "TimeStamp": 1402440766000000000,
-                "LastEditTime": 1404206942444194000
+                "LastEditTime": 1404410211660318400
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -60,7 +60,7 @@
             "File": {
                 "Hash": 1201484646,
                 "TimeStamp": 1402440766000000000,
-                "LastEditTime": 1404206886981021700
+                "LastEditTime": 1404410211667319100
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -101,7 +101,7 @@
             "File": {
                 "Hash": 1037186940,
                 "TimeStamp": 1402440766000000000,
-                "LastEditTime": 1404206886981021700
+                "LastEditTime": 1404410211674319800
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -142,7 +142,7 @@
             "File": {
                 "Hash": 1705425836,
                 "TimeStamp": 1402440766000000000,
-                "LastEditTime": 1404206886981021700
+                "LastEditTime": 1404410211682320600
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -183,7 +183,7 @@
             "File": {
                 "Hash": 345883119,
                 "TimeStamp": 1402440766000000000,
-                "LastEditTime": 1404206886981021700
+                "LastEditTime": 1404410211687321100
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -227,7 +227,7 @@
             "File": {
                 "Hash": 1470458628,
                 "TimeStamp": 1374053038000000000,
-                "LastEditTime": 1404126920924316900
+                "LastEditTime": 1404410211247277100
             },
             "Model": {
                 "LODSwitchDistances": [
@@ -256,7 +256,7 @@
             "File": {
                 "Hash": 319614637,
                 "TimeStamp": 1381770160256343000,
-                "LastEditTime": 1404126920580297200
+                "LastEditTime": 1404410211333285700
             },
             "Model": {
                 "LODSwitchDistances": [
@@ -284,7 +284,7 @@
             "File": {
                 "Hash": 2100221746,
                 "TimeStamp": 1402440766000000000,
-                "LastEditTime": 1404126920660301800
+                "LastEditTime": 1404410211375289900
             },
             "Model": {
                 "LODSwitchDistances": [
@@ -312,7 +312,7 @@
             "File": {
                 "Hash": 4108779169,
                 "TimeStamp": 1402440766000000000,
-                "LastEditTime": 1404126920718305100
+                "LastEditTime": 1404410211410293400
             },
             "Model": {
                 "LODSwitchDistances": [
@@ -339,7 +339,7 @@
             "File": {
                 "Hash": 2916591323,
                 "TimeStamp": 1402440766000000000,
-                "LastEditTime": 1404126920756307300
+                "LastEditTime": 1404410211440296400
             },
             "Model": {
                 "LODSwitchDistances": [
@@ -367,7 +367,7 @@
             "File": {
                 "Hash": 2577180651,
                 "TimeStamp": 1402440766000000000,
-                "LastEditTime": 1404126920818310900
+                "LastEditTime": 1404410211464298800
             },
             "Model": {
                 "LODSwitchDistances": [
@@ -395,7 +395,7 @@
             "File": {
                 "Hash": 3366308346,
                 "TimeStamp": 1402440766000000000,
-                "LastEditTime": 1404126920846312500
+                "LastEditTime": 1404410211487301100
             },
             "Model": {
                 "LODSwitchDistances": [
@@ -423,7 +423,7 @@
             "File": {
                 "Hash": 3276996417,
                 "TimeStamp": 1402440766000000000,
-                "LastEditTime": 1404126920884314600
+                "LastEditTime": 1404467222578246200
             },
             "Model": {
                 "LODSwitchDistances": [
@@ -434,7 +434,7 @@
                 "TemplateName": "Default"
             }
         },
-        "shaders/Misc_00/MultAssigned.bmp": {
+        "Scenes/CharlieWorldNoScript_P01.dds": {
             "AssetType": "Texture",
             "Common": {
                 "Tags": "__NEW_ASSET__",
@@ -446,49 +446,54 @@
                 ]
             },
             "File": {
-                "Hash": 2165401693,
-                "TimeStamp": 1402440766000000000,
-                "LastEditTime": 1404126919250221200
-            },
-            "Texture": {
-                "FileFormat": "BMP",
-                "Width": 128,
-                "Height": 128,
-                "HasAlpha": false,
-                "sRGB": false
-            },
-            "Transformations": {
-                "TemplateName": "Default"
-            }
-        },
-        "Textures/Arrow_Inner.dds": {
-            "AssetType": "Texture",
-            "Common": {
-                "Tags": "__NEW_ASSET__",
-                "Dependencies": [
-
-                ],
-                "Variants": [
-
-                ]
-            },
-            "File": {
-                "Hash": 2222774565,
-                "TimeStamp": 1395973004000000000,
-                "LastEditTime": 1404212752719522700
+                "Hash": 3604381516,
+                "TimeStamp": 1404466215013960900,
+                "LastEditTime": 1404467168129891200
             },
             "Texture": {
                 "FileFormat": "DDS",
-                "Width": 256,
-                "Height": 256,
+                "Width": 1024,
+                "Height": 512,
                 "HasAlpha": true,
                 "sRGB": false
             },
             "Transformations": {
-                "TemplateName": "Default"
+                "pcdx9": {
+                    "TextureTransformationRule": {
+                        "Compression": "Uncompressed",
+                        "Usage": "Undefined",
+                        "RemoveAlphaChannel": false,
+                        "CreateMipMaps": false,
+                        "DownscaleLevel": 0,
+                        "MinimumSize": 0,
+                        "MaximumSize": 0
+                    }
+                },
+                "ios": {
+                    "TextureTransformationRule": {
+                        "Compression": "Uncompressed",
+                        "Usage": "Undefined",
+                        "RemoveAlphaChannel": false,
+                        "CreateMipMaps": false,
+                        "DownscaleLevel": 0,
+                        "MinimumSize": 0,
+                        "MaximumSize": 0
+                    }
+                },
+                "android": {
+                    "TextureTransformationRule": {
+                        "Compression": "Uncompressed",
+                        "Usage": "Undefined",
+                        "RemoveAlphaChannel": false,
+                        "CreateMipMaps": false,
+                        "DownscaleLevel": 0,
+                        "MinimumSize": 0,
+                        "MaximumSize": 0
+                    }
+                }
             }
         },
-        "Textures/Arrow_Outer.dds": {
+        "Scenes/CharlieWorldNPC_P01.dds": {
             "AssetType": "Texture",
             "Common": {
                 "Tags": "__NEW_ASSET__",
@@ -500,19 +505,110 @@
                 ]
             },
             "File": {
-                "Hash": 3474890429,
-                "TimeStamp": 1395973004000000000,
-                "LastEditTime": 1404212752711522200
+                "Hash": 3623408363,
+                "TimeStamp": 1404466214963960400,
+                "LastEditTime": 1404467168129891200
             },
             "Texture": {
                 "FileFormat": "DDS",
-                "Width": 256,
-                "Height": 256,
+                "Width": 1024,
+                "Height": 512,
                 "HasAlpha": true,
                 "sRGB": false
             },
             "Transformations": {
-                "TemplateName": "Default"
+                "pcdx9": {
+                    "TextureTransformationRule": {
+                        "Compression": "Uncompressed",
+                        "Usage": "Undefined",
+                        "RemoveAlphaChannel": false,
+                        "CreateMipMaps": false,
+                        "DownscaleLevel": 0,
+                        "MinimumSize": 0,
+                        "MaximumSize": 0
+                    }
+                },
+                "ios": {
+                    "TextureTransformationRule": {
+                        "Compression": "Uncompressed",
+                        "Usage": "Undefined",
+                        "RemoveAlphaChannel": false,
+                        "CreateMipMaps": false,
+                        "DownscaleLevel": 0,
+                        "MinimumSize": 0,
+                        "MaximumSize": 0
+                    }
+                },
+                "android": {
+                    "TextureTransformationRule": {
+                        "Compression": "Uncompressed",
+                        "Usage": "Undefined",
+                        "RemoveAlphaChannel": false,
+                        "CreateMipMaps": false,
+                        "DownscaleLevel": 0,
+                        "MinimumSize": 0,
+                        "MaximumSize": 0
+                    }
+                }
+            }
+        },
+        "Scenes/CharlieWorldScript_P01.dds": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 2547415534,
+                "TimeStamp": 1404466215053961300,
+                "LastEditTime": 1404467168129891200
+            },
+            "Texture": {
+                "FileFormat": "DDS",
+                "Width": 1024,
+                "Height": 512,
+                "HasAlpha": true,
+                "sRGB": false
+            },
+            "Transformations": {
+                "pcdx9": {
+                    "TextureTransformationRule": {
+                        "Compression": "Uncompressed",
+                        "Usage": "Undefined",
+                        "RemoveAlphaChannel": false,
+                        "CreateMipMaps": false,
+                        "DownscaleLevel": 0,
+                        "MinimumSize": 0,
+                        "MaximumSize": 0
+                    }
+                },
+                "ios": {
+                    "TextureTransformationRule": {
+                        "Compression": "Uncompressed",
+                        "Usage": "Undefined",
+                        "RemoveAlphaChannel": false,
+                        "CreateMipMaps": false,
+                        "DownscaleLevel": 0,
+                        "MinimumSize": 0,
+                        "MaximumSize": 0
+                    }
+                },
+                "android": {
+                    "TextureTransformationRule": {
+                        "Compression": "Uncompressed",
+                        "Usage": "Undefined",
+                        "RemoveAlphaChannel": false,
+                        "CreateMipMaps": false,
+                        "DownscaleLevel": 0,
+                        "MinimumSize": 0,
+                        "MaximumSize": 0
+                    }
+                }
             }
         },
         "Textures/grid01.jpg": {
@@ -529,7 +625,7 @@
             "File": {
                 "Hash": 1792375473,
                 "TimeStamp": 1402440766000000000,
-                "LastEditTime": 1404126918944203700
+                "LastEditTime": 1404410211546307000
             },
             "Texture": {
                 "FileFormat": "JPG",
@@ -556,7 +652,7 @@
             "File": {
                 "Hash": 3546944877,
                 "TimeStamp": 1372417355731537500,
-                "LastEditTime": 1404126919046209500
+                "LastEditTime": 1404410211555307900
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -583,7 +679,7 @@
             "File": {
                 "Hash": 2267533189,
                 "TimeStamp": 1372417355739544100,
-                "LastEditTime": 1404126919096212400
+                "LastEditTime": 1404410211591311500
             },
             "Texture": {
                 "FileFormat": "TGA",
@@ -610,7 +706,7 @@
             "File": {
                 "Hash": 497876695,
                 "TimeStamp": 1372417355742546100,
-                "LastEditTime": 1404126919138214800
+                "LastEditTime": 1404410211601312500
             },
             "Texture": {
                 "FileFormat": "DDS",
@@ -637,7 +733,142 @@
             "File": {
                 "Hash": 457210064,
                 "TimeStamp": 1372417355747549400,
-                "LastEditTime": 1404126919189217700
+                "LastEditTime": 1404410211634315800
+            },
+            "Texture": {
+                "FileFormat": "TGA",
+                "Width": 512,
+                "Height": 512,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Textures/Sky/clear_morning_back.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 459342730,
+                "TimeStamp": 1404464628938281500,
+                "LastEditTime": 1404466251714327900
+            },
+            "Texture": {
+                "FileFormat": "TGA",
+                "Width": 512,
+                "Height": 512,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Textures/Sky/clear_morning_front.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 2720994091,
+                "TimeStamp": 1404464628943280500,
+                "LastEditTime": 1404466251754328300
+            },
+            "Texture": {
+                "FileFormat": "TGA",
+                "Width": 512,
+                "Height": 512,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Textures/Sky/clear_morning_left.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 2818607714,
+                "TimeStamp": 1404464628948279500,
+                "LastEditTime": 1404466251784328600
+            },
+            "Texture": {
+                "FileFormat": "TGA",
+                "Width": 512,
+                "Height": 512,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Textures/Sky/clear_morning_right.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 2469899570,
+                "TimeStamp": 1404464628953278500,
+                "LastEditTime": 1404466251824329000
+            },
+            "Texture": {
+                "FileFormat": "TGA",
+                "Width": 512,
+                "Height": 512,
+                "HasAlpha": false,
+                "sRGB": false
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Textures/Sky/clear_morning_top.tga": {
+            "AssetType": "Texture",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ]
+            },
+            "File": {
+                "Hash": 3754295486,
+                "TimeStamp": 1404464628958277500,
+                "LastEditTime": 1404466251864329400
             },
             "Texture": {
                 "FileFormat": "TGA",
@@ -664,7 +895,7 @@
             "File": {
                 "Hash": 2620166608,
                 "TimeStamp": 1402440766000000000,
-                "LastEditTime": 1404207204696193900
+                "LastEditTime": 1404410211640316400
             },
             "Texture": {
                 "FileFormat": "DDS",
