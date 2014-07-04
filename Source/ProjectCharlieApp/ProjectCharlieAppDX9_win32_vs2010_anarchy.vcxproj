@@ -65,7 +65,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
     <Link>
       <AdditionalDependencies>CharlieNPCPlugin.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>..\..\Lib\win32_vs2010;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\Lib\win32_vs2010_anarchy\debug_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <ClCompile>
       <PreprocessorDefinitions>ANIMATIONMODULE_IMPORTS;VHAVOKMODULE_IMPORTS;VHAVOKBEHAVIORMODULE_IMPORTS;CHARLIEPLUGIN_EXPORTS;CHARLIEPLUGIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -74,7 +74,7 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Dev|win32'">
     <Link>
       <AdditionalDependencies>CharlieNPCPlugin.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>..\..\Lib\win32_vs2010;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\..\Lib\win32_vs2010_anarchy\dev_dll;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Link>
     <ClCompile>
       <PreprocessorDefinitions>ANIMATIONMODULE_IMPORTS;VHAVOKMODULE_IMPORTS;VHAVOKBEHAVIORMODULE_IMPORTS;CHARLIEPLUGIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
