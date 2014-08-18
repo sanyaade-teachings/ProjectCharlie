@@ -5,7 +5,7 @@ Project Charlie is a suite of samples utilising common assets that demonstrate d
 *__Important:__ The local Data folder is not held within this repository. Please use the RUN_ONCE.bat to create this directory from your own SDK.*
 
 
-**v2014.0.5** *This sample was written for ProjectAnarchy version 2014.0.5 and requires minor migration adjustments for use with the current 2014.1.0 release until the complient 2014.1.0 upgrade commited.*
+**v2014.0.5** *This sample was written for ProjectAnarchy version 2014.0.5 and requires minor migration adjustments for use with the current 2014.1.0 release until a complient upgrade is commited.*
 
 ---
 
