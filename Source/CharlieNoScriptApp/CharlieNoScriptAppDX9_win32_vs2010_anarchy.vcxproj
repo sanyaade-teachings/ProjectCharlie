@@ -27,10 +27,10 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
-    <Import Project="$(VISION_SDK)\Build\Vision\PropertySheets\ApplicationDX9_win32_vs2010_anarchyDebugDLL.props" />
+    <Import Project="$(VISION_SDK)\Build\Vision\PropertySheets\ApplicationDX9_win32_vs2010_anarchyDebug.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Dev|win32'">
-    <Import Project="$(VISION_SDK)\Build\Vision\PropertySheets\ApplicationDX9_win32_vs2010_anarchyDevDLL.props" />
+    <Import Project="$(VISION_SDK)\Build\Vision\PropertySheets\ApplicationDX9_win32_vs2010_anarchyDev.props" />
   </ImportGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
     <CharacterSet>Unicode</CharacterSet>
@@ -65,6 +65,8 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
     <Link>
       <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <ImportLibrary>
+      </ImportLibrary>
     </Link>
     <ClCompile>
       <PreprocessorDefinitions>ANIMATIONMODULE_IMPORTS;VHAVOKMODULE_IMPORTS;VHAVOKBEHAVIORMODULE_IMPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
@@ -73,6 +75,8 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Dev|win32'">
     <Link>
       <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <ImportLibrary>
+      </ImportLibrary>
     </Link>
     <ClCompile>
       <PreprocessorDefinitions>ANIMATIONMODULE_IMPORTS;VHAVOKMODULE_IMPORTS;VHAVOKBEHAVIORMODULE_IMPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>

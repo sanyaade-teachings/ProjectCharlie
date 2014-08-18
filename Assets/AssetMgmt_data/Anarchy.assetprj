@@ -11,9 +11,14 @@
         }
     },
     "TransformTemplates": {
-        "Prefab": {
+        "Animated Texture": {
             "Default": {
                 "pcdx9": {
+                    "None": {
+
+                    }
+                },
+                "ios": {
                     "None": {
 
                     }
@@ -22,8 +27,22 @@
                     "None": {
 
                     }
+                }
+            }
+        },
+        "Prefab": {
+            "Default": {
+                "pcdx9": {
+                    "None": {
+
+                    }
                 },
                 "ios": {
+                    "None": {
+
+                    }
+                },
+                "android": {
                     "None": {
 
                     }
@@ -37,12 +56,12 @@
 
                     }
                 },
-                "android": {
+                "ios": {
                     "None": {
 
                     }
                 },
-                "ios": {
+                "android": {
                     "None": {
 
                     }
@@ -56,12 +75,12 @@
 
                     }
                 },
-                "android": {
+                "ios": {
                     "None": {
 
                     }
                 },
-                "ios": {
+                "android": {
                     "None": {
 
                     }
@@ -75,12 +94,12 @@
 
                     }
                 },
-                "android": {
+                "ios": {
                     "None": {
 
                     }
                 },
-                "ios": {
+                "android": {
                     "None": {
 
                     }
@@ -94,13 +113,41 @@
 
                     }
                 },
+                "ios": {
+                    "None": {
+
+                    }
+                },
                 "android": {
+                    "None": {
+
+                    }
+                }
+            }
+        },
+        "Script": {
+            "Default": {
+                "pcdx9": {
                     "None": {
 
                     }
                 },
                 "ios": {
                     "None": {
+
+                    }
+                },
+                "android": {
+                    "None": {
+
+                    }
+                }
+            }
+        },
+        "Havok Tagfile": {
+            "Default": {
+                "AllProfiles": {
+                    "TagfileTransformationRule": {
 
                     }
                 }
@@ -119,7 +166,7 @@
                         "MaximumSize": 0
                     }
                 },
-                "android": {
+                "ios": {
                     "TextureTransformationRule": {
                         "Compression": "Quality",
                         "Usage": "Undefined",
@@ -130,7 +177,7 @@
                         "MaximumSize": 0
                     }
                 },
-                "ios": {
+                "android": {
                     "TextureTransformationRule": {
                         "Compression": "Quality",
                         "Usage": "Undefined",
@@ -150,13 +197,22 @@
 
                     }
                 },
-                "android": {
+                "ios": {
                     "None": {
 
                     }
                 },
-                "ios": {
+                "android": {
                     "None": {
+
+                    }
+                }
+            }
+        },
+        "FBX": {
+            "Default": {
+                "AllProfiles": {
+                    "FbxToTagfileTransformationRule": {
 
                     }
                 }
@@ -169,12 +225,12 @@
 
                     }
                 },
-                "android": {
+                "ios": {
                     "CollectionTransformationRule": {
 
                     }
                 },
-                "ios": {
+                "android": {
                     "CollectionTransformationRule": {
 
                     }
@@ -188,12 +244,12 @@
 
                     }
                 },
-                "android": {
+                "ios": {
                     "None": {
 
                     }
                 },
-                "ios": {
+                "android": {
                     "None": {
 
                     }

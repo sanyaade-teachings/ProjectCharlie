@@ -1,12 +1,12 @@
 {
     "Configuration": {
         "Name": "Assets",
-        "FormatVersion": 2,
-        "LastEditTime": 1404126869560379100
+        "FormatVersion": 4,
+        "LastEditTime": 1404910517325592700
     },
     "Assets": {
-        "Fonts/Arial32_00.dds": {
-            "AssetType": "Texture",
+        "Animations/charlie_idle.hkt": {
+            "AssetType": "Havok Tagfile",
             "Common": {
                 "Tags": "__NEW_ASSET__",
                 "Dependencies": [
@@ -14,18 +14,444 @@
                 ],
                 "Variants": [
 
-                ]
+                ],
+                "UpdateAfterLoad": false
+            },
+            "File": {
+                "Hash": 4290833547,
+                "TimeStamp": 1403609453179099400,
+                "LastEditTime": 1404910533735756800
+            },
+            "Tagfile": {
+                "Filter Target": "None",
+                "Source": "",
+                "Target Directory": "",
+                "Settings": "",
+                "Target Hash": 0
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Animations/charlie_jumpup.hkt": {
+            "AssetType": "Havok Tagfile",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ],
+                "UpdateAfterLoad": false
+            },
+            "File": {
+                "Hash": 103158195,
+                "TimeStamp": 1403609475738355100,
+                "LastEditTime": 1404910533745756900
+            },
+            "Tagfile": {
+                "Filter Target": "None",
+                "Source": "",
+                "Target Directory": "",
+                "Settings": "",
+                "Target Hash": 0
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Animations/charlie_leapturn.hkt": {
+            "AssetType": "Havok Tagfile",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ],
+                "UpdateAfterLoad": false
+            },
+            "File": {
+                "Hash": 4201284052,
+                "TimeStamp": 1403609494912272300,
+                "LastEditTime": 1408374362402596000
+            },
+            "Tagfile": {
+                "Filter Target": "None",
+                "Source": "",
+                "Target Directory": "",
+                "Settings": "",
+                "Target Hash": 0
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Animations/charlie_run.hkt": {
+            "AssetType": "Havok Tagfile",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ],
+                "UpdateAfterLoad": false
+            },
+            "File": {
+                "Hash": 3614741458,
+                "TimeStamp": 1403613696286386500,
+                "LastEditTime": 1404910533745756900
+            },
+            "Tagfile": {
+                "Filter Target": "None",
+                "Source": "",
+                "Target Directory": "",
+                "Settings": "",
+                "Target Hash": 0
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Animations/charlie_runjump.hkt": {
+            "AssetType": "Havok Tagfile",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ],
+                "UpdateAfterLoad": false
+            },
+            "File": {
+                "Hash": 3177972004,
+                "TimeStamp": 1403609537936574300,
+                "LastEditTime": 1404910533755757000
+            },
+            "Tagfile": {
+                "Filter Target": "None",
+                "Source": "",
+                "Target Directory": "",
+                "Settings": "",
+                "Target Hash": 0
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Animations/charlie_sprint.hkt": {
+            "AssetType": "Havok Tagfile",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ],
+                "UpdateAfterLoad": false
+            },
+            "File": {
+                "Hash": 3224485894,
+                "TimeStamp": 1403613640368795300,
+                "LastEditTime": 1404910533755757000
+            },
+            "Tagfile": {
+                "Filter Target": "None",
+                "Source": "",
+                "Target Directory": "",
+                "Settings": "",
+                "Target Hash": 0
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Animations/charlie_turnleft.hkt": {
+            "AssetType": "Havok Tagfile",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ],
+                "UpdateAfterLoad": false
+            },
+            "File": {
+                "Hash": 753845813,
+                "TimeStamp": 1403609560401820600,
+                "LastEditTime": 1404910533755757000
+            },
+            "Tagfile": {
+                "Filter Target": "None",
+                "Source": "",
+                "Target Directory": "",
+                "Settings": "",
+                "Target Hash": 0
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Animations/charlie_turnright.hkt": {
+            "AssetType": "Havok Tagfile",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ],
+                "UpdateAfterLoad": false
+            },
+            "File": {
+                "Hash": 3144604376,
+                "TimeStamp": 1403609574371217400,
+                "LastEditTime": 1404910533755757000
+            },
+            "Tagfile": {
+                "Filter Target": "None",
+                "Source": "",
+                "Target Directory": "",
+                "Settings": "",
+                "Target Hash": 0
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Animations/charlie_walk.hkt": {
+            "AssetType": "Havok Tagfile",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ],
+                "UpdateAfterLoad": false
+            },
+            "File": {
+                "Hash": 2767670997,
+                "TimeStamp": 1403613424085169100,
+                "LastEditTime": 1404910533765757100
+            },
+            "Tagfile": {
+                "Filter Target": "None",
+                "Source": "",
+                "Target Directory": "",
+                "Settings": "",
+                "Target Hash": 0
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Behaviors/NoScriptBehaviour.hkt": {
+            "AssetType": "Havok Tagfile",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ],
+                "UpdateAfterLoad": false
+            },
+            "File": {
+                "Hash": 2599513689,
+                "TimeStamp": 1403890381083961800,
+                "LastEditTime": 1408371477907176600
+            },
+            "Tagfile": {
+                "Filter Target": "None",
+                "Source": "",
+                "Target Directory": "",
+                "Settings": "",
+                "Target Hash": 0
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Behaviors/ScriptBehaviour - Copy.hkt": {
+            "AssetType": "Havok Tagfile",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ],
+                "UpdateAfterLoad": false
+            },
+            "File": {
+                "Hash": 2345012143,
+                "TimeStamp": 1403628069708643900,
+                "LastEditTime": 1404910533715756600
+            },
+            "Tagfile": {
+                "Filter Target": "None",
+                "Source": "",
+                "Target Directory": "",
+                "Settings": "",
+                "Target Hash": 0
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Behaviors/ScriptBehaviour.hkt": {
+            "AssetType": "Havok Tagfile",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ],
+                "UpdateAfterLoad": false
+            },
+            "File": {
+                "Hash": 1385567949,
+                "TimeStamp": 1403890339356961800,
+                "LastEditTime": 1404910533715756600
+            },
+            "Tagfile": {
+                "Filter Target": "None",
+                "Source": "",
+                "Target Directory": "",
+                "Settings": "",
+                "Target Hash": 0
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "CharacterAssets/charlie.hkt": {
+            "AssetType": "Havok Tagfile",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ],
+                "UpdateAfterLoad": false
+            },
+            "File": {
+                "Hash": 2839857091,
+                "TimeStamp": 1381768972907870900,
+                "LastEditTime": 1404910533715756600
+            },
+            "Tagfile": {
+                "Filter Target": "None",
+                "Source": "",
+                "Target Directory": "",
+                "Settings": "",
+                "Target Hash": 0
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Characters/CharlieNoScript.hkt": {
+            "AssetType": "Havok Tagfile",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ],
+                "UpdateAfterLoad": false
+            },
+            "File": {
+                "Hash": 1891805868,
+                "TimeStamp": 1403628069698643700,
+                "LastEditTime": 1404910533705756500
+            },
+            "Tagfile": {
+                "Filter Target": "None",
+                "Source": "",
+                "Target Directory": "",
+                "Settings": "",
+                "Target Hash": 0
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Characters/CharlieScript.hkt": {
+            "AssetType": "Havok Tagfile",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ],
+                "UpdateAfterLoad": false
+            },
+            "File": {
+                "Hash": 2825899104,
+                "TimeStamp": 1403628069698643700,
+                "LastEditTime": 1404910533705756500
+            },
+            "Tagfile": {
+                "Filter Target": "None",
+                "Source": "",
+                "Target Directory": "",
+                "Settings": "",
+                "Target Hash": 0
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Fonts/Arial32_00.dds": {
+            "AssetType": "Texture",
+            "Common": {
+                "Subtype": "2D",
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ],
+                "UpdateAfterLoad": false
             },
             "File": {
                 "Hash": 3915487704,
                 "TimeStamp": 1402440766000000000,
-                "LastEditTime": 1404410211660318400
+                "LastEditTime": 1404910537545794900
             },
             "Texture": {
                 "FileFormat": "DDS",
+                "DataFormat": "(Unknown)",
+                "HasAlpha": false,
                 "Width": 256,
                 "Height": 256,
-                "HasAlpha": false,
+                "Depth": 1,
+                "CubeFaces": 1,
+                "Images": 1,
                 "sRGB": false
             },
             "Transformations": {
@@ -49,24 +475,30 @@
         "Fonts/Arial_18_00.dds": {
             "AssetType": "Texture",
             "Common": {
+                "Subtype": "2D",
                 "Tags": "__NEW_ASSET__",
                 "Dependencies": [
 
                 ],
                 "Variants": [
 
-                ]
+                ],
+                "UpdateAfterLoad": false
             },
             "File": {
                 "Hash": 1201484646,
                 "TimeStamp": 1402440766000000000,
-                "LastEditTime": 1404410211667319100
+                "LastEditTime": 1404910537565795100
             },
             "Texture": {
                 "FileFormat": "DDS",
+                "DataFormat": "(Unknown)",
+                "HasAlpha": false,
                 "Width": 256,
                 "Height": 128,
-                "HasAlpha": false,
+                "Depth": 1,
+                "CubeFaces": 1,
+                "Images": 1,
                 "sRGB": false
             },
             "Transformations": {
@@ -90,24 +522,30 @@
         "Fonts/Arial_22_00.dds": {
             "AssetType": "Texture",
             "Common": {
+                "Subtype": "2D",
                 "Tags": "__NEW_ASSET__",
                 "Dependencies": [
 
                 ],
                 "Variants": [
 
-                ]
+                ],
+                "UpdateAfterLoad": false
             },
             "File": {
                 "Hash": 1037186940,
                 "TimeStamp": 1402440766000000000,
-                "LastEditTime": 1404410211674319800
+                "LastEditTime": 1404910537585795300
             },
             "Texture": {
                 "FileFormat": "DDS",
+                "DataFormat": "(Unknown)",
+                "HasAlpha": false,
                 "Width": 256,
                 "Height": 128,
-                "HasAlpha": false,
+                "Depth": 1,
+                "CubeFaces": 1,
+                "Images": 1,
                 "sRGB": false
             },
             "Transformations": {
@@ -131,24 +569,30 @@
         "Fonts/CourierNew_18_00.dds": {
             "AssetType": "Texture",
             "Common": {
+                "Subtype": "2D",
                 "Tags": "__NEW_ASSET__",
                 "Dependencies": [
 
                 ],
                 "Variants": [
 
-                ]
+                ],
+                "UpdateAfterLoad": false
             },
             "File": {
                 "Hash": 1705425836,
                 "TimeStamp": 1402440766000000000,
-                "LastEditTime": 1404410211682320600
+                "LastEditTime": 1404910537595795400
             },
             "Texture": {
                 "FileFormat": "DDS",
+                "DataFormat": "(Unknown)",
+                "HasAlpha": false,
                 "Width": 128,
                 "Height": 128,
-                "HasAlpha": false,
+                "Depth": 1,
+                "CubeFaces": 1,
+                "Images": 1,
                 "sRGB": false
             },
             "Transformations": {
@@ -172,24 +616,30 @@
         "Fonts/DebugFont_00.dds": {
             "AssetType": "Texture",
             "Common": {
+                "Subtype": "2D",
                 "Tags": "__NEW_ASSET__",
                 "Dependencies": [
 
                 ],
                 "Variants": [
 
-                ]
+                ],
+                "UpdateAfterLoad": false
             },
             "File": {
                 "Hash": 345883119,
                 "TimeStamp": 1402440766000000000,
-                "LastEditTime": 1404410211687321100
+                "LastEditTime": 1404910537615795600
             },
             "Texture": {
                 "FileFormat": "DDS",
+                "DataFormat": "(Unknown)",
+                "HasAlpha": false,
                 "Width": 256,
                 "Height": 64,
-                "HasAlpha": false,
+                "Depth": 1,
+                "CubeFaces": 1,
+                "Images": 1,
                 "sRGB": false
             },
             "Transformations": {
@@ -216,23 +666,81 @@
                 "Tags": "__NEW_ASSET__",
                 "Dependencies": [
                     "Meshes/track11k.vmesh_data/materials.xml",
-                    "Shaders/BaseShaders.ShaderLib",
+                    "shaders/MobileShadersFog.ShaderLib",
                     "Shaders/vMaterial.ShaderLib",
                     "Textures/grid01.jpg"
                 ],
                 "Variants": [
 
-                ]
+                ],
+                "UpdateAfterLoad": false
             },
             "File": {
                 "Hash": 1470458628,
                 "TimeStamp": 1374053038000000000,
-                "LastEditTime": 1404410211247277100
+                "LastEditTime": 1404910532125740700
             },
             "Model": {
+                "UseCustomLODDistances": false,
                 "LODSwitchDistances": [
 
                 ]
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Meshes/track11k.vmesh_data/Msh_1.00_1.00_1.00_1_0.hkt": {
+            "AssetType": "Havok Tagfile",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ],
+                "UpdateAfterLoad": false
+            },
+            "File": {
+                "Hash": 1174113504,
+                "TimeStamp": 1379931676226996700,
+                "LastEditTime": 1404910537545794900
+            },
+            "Tagfile": {
+                "Filter Target": "None",
+                "Source": "",
+                "Target Directory": "",
+                "Settings": "",
+                "Target Hash": 0
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Meshes/track11k.vmesh_data/Msh_1.30_1.30_1.30_1_0.hkt": {
+            "AssetType": "Havok Tagfile",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ],
+                "UpdateAfterLoad": false
+            },
+            "File": {
+                "Hash": 817583519,
+                "TimeStamp": 1374053038000000000,
+                "LastEditTime": 1404910537545794900
+            },
+            "Tagfile": {
+                "Filter Target": "None",
+                "Source": "",
+                "Target Directory": "",
+                "Settings": "",
+                "Target Hash": 0
             },
             "Transformations": {
                 "TemplateName": "Default"
@@ -251,17 +759,47 @@
                 ],
                 "Variants": [
 
-                ]
+                ],
+                "UpdateAfterLoad": false
             },
             "File": {
                 "Hash": 319614637,
                 "TimeStamp": 1381770160256343000,
-                "LastEditTime": 1404410211333285700
+                "LastEditTime": 1404910532665746100
             },
             "Model": {
+                "UseCustomLODDistances": false,
                 "LODSwitchDistances": [
 
                 ]
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Models/charlie.model_data/Cvx_1.00_1.00_1.00.hkt": {
+            "AssetType": "Havok Tagfile",
+            "Common": {
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ],
+                "UpdateAfterLoad": false
+            },
+            "File": {
+                "Hash": 976140360,
+                "TimeStamp": 1382027298863069200,
+                "LastEditTime": 1404910537535794800
+            },
+            "Tagfile": {
+                "Filter Target": "None",
+                "Source": "",
+                "Target Directory": "",
+                "Settings": "",
+                "Target Hash": 0
             },
             "Transformations": {
                 "TemplateName": "Default"
@@ -279,14 +817,16 @@
                 ],
                 "Variants": [
 
-                ]
+                ],
+                "UpdateAfterLoad": false
             },
             "File": {
                 "Hash": 2100221746,
                 "TimeStamp": 1402440766000000000,
-                "LastEditTime": 1404410211375289900
+                "LastEditTime": 1404910537395793400
             },
             "Model": {
+                "UseCustomLODDistances": false,
                 "LODSwitchDistances": [
 
                 ]
@@ -307,14 +847,16 @@
                 ],
                 "Variants": [
 
-                ]
+                ],
+                "UpdateAfterLoad": false
             },
             "File": {
                 "Hash": 4108779169,
                 "TimeStamp": 1402440766000000000,
-                "LastEditTime": 1404410211410293400
+                "LastEditTime": 1404910537475794200
             },
             "Model": {
+                "UseCustomLODDistances": false,
                 "LODSwitchDistances": [
 
                 ]
@@ -334,14 +876,16 @@
                 ],
                 "Variants": [
 
-                ]
+                ],
+                "UpdateAfterLoad": false
             },
             "File": {
                 "Hash": 2916591323,
                 "TimeStamp": 1402440766000000000,
-                "LastEditTime": 1404410211440296400
+                "LastEditTime": 1404910537095790400
             },
             "Model": {
+                "UseCustomLODDistances": false,
                 "LODSwitchDistances": [
 
                 ]
@@ -362,14 +906,16 @@
                 ],
                 "Variants": [
 
-                ]
+                ],
+                "UpdateAfterLoad": false
             },
             "File": {
                 "Hash": 2577180651,
                 "TimeStamp": 1402440766000000000,
-                "LastEditTime": 1404410211464298800
+                "LastEditTime": 1404910537005789500
             },
             "Model": {
+                "UseCustomLODDistances": false,
                 "LODSwitchDistances": [
 
                 ]
@@ -390,14 +936,16 @@
                 ],
                 "Variants": [
 
-                ]
+                ],
+                "UpdateAfterLoad": false
             },
             "File": {
                 "Hash": 3366308346,
                 "TimeStamp": 1402440766000000000,
-                "LastEditTime": 1404410211487301100
+                "LastEditTime": 1404910533525754700
             },
             "Model": {
+                "UseCustomLODDistances": false,
                 "LODSwitchDistances": [
 
                 ]
@@ -418,14 +966,16 @@
                 ],
                 "Variants": [
 
-                ]
+                ],
+                "UpdateAfterLoad": false
             },
             "File": {
                 "Hash": 3276996417,
                 "TimeStamp": 1402440766000000000,
-                "LastEditTime": 1404467222578246200
+                "LastEditTime": 1404910532475744200
             },
             "Model": {
+                "UseCustomLODDistances": false,
                 "LODSwitchDistances": [
 
                 ]
@@ -434,8 +984,8 @@
                 "TemplateName": "Default"
             }
         },
-        "Scenes/CharlieWorldNoScript_P01.dds": {
-            "AssetType": "Texture",
+        "Project/CharlieHAT.hkt": {
+            "AssetType": "Havok Tagfile",
             "Common": {
                 "Tags": "__NEW_ASSET__",
                 "Dependencies": [
@@ -443,18 +993,52 @@
                 ],
                 "Variants": [
 
-                ]
+                ],
+                "UpdateAfterLoad": false
+            },
+            "File": {
+                "Hash": 307337359,
+                "TimeStamp": 1408371377256170100,
+                "LastEditTime": 1408371477907176600
+            },
+            "Tagfile": {
+                "Filter Target": "None",
+                "Source": "",
+                "Target Directory": "",
+                "Settings": "",
+                "Target Hash": 0
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Scenes/CharlieWorldNoScript_P01.dds": {
+            "AssetType": "Texture",
+            "Common": {
+                "Subtype": "2D",
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ],
+                "UpdateAfterLoad": false
             },
             "File": {
                 "Hash": 3604381516,
                 "TimeStamp": 1404466215013960900,
-                "LastEditTime": 1404467168129891200
+                "LastEditTime": 1404910537305792500
             },
             "Texture": {
                 "FileFormat": "DDS",
+                "DataFormat": "A8R8G8B8",
+                "HasAlpha": true,
                 "Width": 1024,
                 "Height": 512,
-                "HasAlpha": true,
+                "Depth": 1,
+                "CubeFaces": 1,
+                "Images": 1,
                 "sRGB": false
             },
             "Transformations": {
@@ -496,24 +1080,30 @@
         "Scenes/CharlieWorldNPC_P01.dds": {
             "AssetType": "Texture",
             "Common": {
+                "Subtype": "2D",
                 "Tags": "__NEW_ASSET__",
                 "Dependencies": [
 
                 ],
                 "Variants": [
 
-                ]
+                ],
+                "UpdateAfterLoad": false
             },
             "File": {
                 "Hash": 3623408363,
                 "TimeStamp": 1404466214963960400,
-                "LastEditTime": 1404467168129891200
+                "LastEditTime": 1404910533225751700
             },
             "Texture": {
                 "FileFormat": "DDS",
+                "DataFormat": "A8R8G8B8",
+                "HasAlpha": true,
                 "Width": 1024,
                 "Height": 512,
-                "HasAlpha": true,
+                "Depth": 1,
+                "CubeFaces": 1,
+                "Images": 1,
                 "sRGB": false
             },
             "Transformations": {
@@ -555,24 +1145,30 @@
         "Scenes/CharlieWorldScript_P01.dds": {
             "AssetType": "Texture",
             "Common": {
+                "Subtype": "2D",
                 "Tags": "__NEW_ASSET__",
                 "Dependencies": [
 
                 ],
                 "Variants": [
 
-                ]
+                ],
+                "UpdateAfterLoad": false
             },
             "File": {
                 "Hash": 2547415534,
                 "TimeStamp": 1404466215053961300,
-                "LastEditTime": 1404467168129891200
+                "LastEditTime": 1404910537375793200
             },
             "Texture": {
                 "FileFormat": "DDS",
+                "DataFormat": "A8R8G8B8",
+                "HasAlpha": true,
                 "Width": 1024,
                 "Height": 512,
-                "HasAlpha": true,
+                "Depth": 1,
+                "CubeFaces": 1,
+                "Images": 1,
                 "sRGB": false
             },
             "Transformations": {
@@ -611,8 +1207,8 @@
                 }
             }
         },
-        "Textures/grid01.jpg": {
-            "AssetType": "Texture",
+        "Scripts/charlie.lua": {
+            "AssetType": "Script",
             "Common": {
                 "Tags": "__NEW_ASSET__",
                 "Dependencies": [
@@ -620,18 +1216,45 @@
                 ],
                 "Variants": [
 
-                ]
+                ],
+                "UpdateAfterLoad": false
+            },
+            "File": {
+                "Hash": 899611983,
+                "TimeStamp": 1387298482162918200,
+                "LastEditTime": 1404910533065750100
+            },
+            "Transformations": {
+                "TemplateName": "Default"
+            }
+        },
+        "Textures/grid01.jpg": {
+            "AssetType": "Texture",
+            "Common": {
+                "Subtype": "2D",
+                "Tags": "__NEW_ASSET__",
+                "Dependencies": [
+
+                ],
+                "Variants": [
+
+                ],
+                "UpdateAfterLoad": false
             },
             "File": {
                 "Hash": 1792375473,
                 "TimeStamp": 1402440766000000000,
-                "LastEditTime": 1404410211546307000
+                "LastEditTime": 1404910532075740200
             },
             "Texture": {
                 "FileFormat": "JPG",
+                "DataFormat": "Jpeg RGB",
+                "HasAlpha": false,
                 "Width": 160,
                 "Height": 160,
-                "HasAlpha": false,
+                "Depth": 1,
+                "CubeFaces": 1,
+                "Images": 1,
                 "sRGB": false
             },
             "Transformations": {
@@ -641,24 +1264,30 @@
         "Textures/Male_cartoon_afro_Diffuse.dds": {
             "AssetType": "Texture",
             "Common": {
+                "Subtype": "2D",
                 "Tags": "__NEW_ASSET__",
                 "Dependencies": [
 
                 ],
                 "Variants": [
 
-                ]
+                ],
+                "UpdateAfterLoad": false
             },
             "File": {
                 "Hash": 3546944877,
                 "TimeStamp": 1372417355731537500,
-                "LastEditTime": 1404410211555307900
+                "LastEditTime": 1404910537195791400
             },
             "Texture": {
                 "FileFormat": "DDS",
+                "DataFormat": "DXT1",
+                "HasAlpha": true,
                 "Width": 512,
                 "Height": 512,
-                "HasAlpha": true,
+                "Depth": 1,
+                "CubeFaces": 1,
+                "Images": 1,
                 "sRGB": false
             },
             "Transformations": {
@@ -668,24 +1297,30 @@
         "Textures/Male_cartoon_afro_Diffuse.tga": {
             "AssetType": "Texture",
             "Common": {
+                "Subtype": "2D",
                 "Tags": "__NEW_ASSET__",
                 "Dependencies": [
 
                 ],
                 "Variants": [
 
-                ]
+                ],
+                "UpdateAfterLoad": false
             },
             "File": {
                 "Hash": 2267533189,
                 "TimeStamp": 1372417355739544100,
-                "LastEditTime": 1404410211591311500
+                "LastEditTime": 1404910532635745800
             },
             "Texture": {
                 "FileFormat": "TGA",
+                "DataFormat": "Targa RGB",
+                "HasAlpha": false,
                 "Width": 512,
                 "Height": 512,
-                "HasAlpha": false,
+                "Depth": 1,
+                "CubeFaces": 1,
+                "Images": 1,
                 "sRGB": false
             },
             "Transformations": {
@@ -695,24 +1330,30 @@
         "Textures/Male_cartoon_afro_Specular.dds": {
             "AssetType": "Texture",
             "Common": {
+                "Subtype": "2D",
                 "Tags": "__NEW_ASSET__",
                 "Dependencies": [
 
                 ],
                 "Variants": [
 
-                ]
+                ],
+                "UpdateAfterLoad": false
             },
             "File": {
                 "Hash": 497876695,
                 "TimeStamp": 1372417355742546100,
-                "LastEditTime": 1404410211601312500
+                "LastEditTime": 1404910537215791600
             },
             "Texture": {
                 "FileFormat": "DDS",
+                "DataFormat": "DXT1",
+                "HasAlpha": true,
                 "Width": 512,
                 "Height": 512,
-                "HasAlpha": true,
+                "Depth": 1,
+                "CubeFaces": 1,
+                "Images": 1,
                 "sRGB": false
             },
             "Transformations": {
@@ -722,24 +1363,30 @@
         "Textures/Male_cartoon_afro_Specular.tga": {
             "AssetType": "Texture",
             "Common": {
+                "Subtype": "2D",
                 "Tags": "__NEW_ASSET__",
                 "Dependencies": [
 
                 ],
                 "Variants": [
 
-                ]
+                ],
+                "UpdateAfterLoad": false
             },
             "File": {
                 "Hash": 457210064,
                 "TimeStamp": 1372417355747549400,
-                "LastEditTime": 1404410211634315800
+                "LastEditTime": 1404910532825747700
             },
             "Texture": {
                 "FileFormat": "TGA",
+                "DataFormat": "Targa RGB",
+                "HasAlpha": false,
                 "Width": 512,
                 "Height": 512,
-                "HasAlpha": false,
+                "Depth": 1,
+                "CubeFaces": 1,
+                "Images": 1,
                 "sRGB": false
             },
             "Transformations": {
@@ -749,24 +1396,30 @@
         "Textures/Sky/clear_morning_back.tga": {
             "AssetType": "Texture",
             "Common": {
+                "Subtype": "2D",
                 "Tags": "__NEW_ASSET__",
                 "Dependencies": [
 
                 ],
                 "Variants": [
 
-                ]
+                ],
+                "UpdateAfterLoad": false
             },
             "File": {
                 "Hash": 459342730,
                 "TimeStamp": 1404464628938281500,
-                "LastEditTime": 1404466251714327900
+                "LastEditTime": 1404910532885748300
             },
             "Texture": {
                 "FileFormat": "TGA",
+                "DataFormat": "Targa RGB RLE",
+                "HasAlpha": false,
                 "Width": 512,
                 "Height": 512,
-                "HasAlpha": false,
+                "Depth": 1,
+                "CubeFaces": 1,
+                "Images": 1,
                 "sRGB": false
             },
             "Transformations": {
@@ -776,24 +1429,30 @@
         "Textures/Sky/clear_morning_front.tga": {
             "AssetType": "Texture",
             "Common": {
+                "Subtype": "2D",
                 "Tags": "__NEW_ASSET__",
                 "Dependencies": [
 
                 ],
                 "Variants": [
 
-                ]
+                ],
+                "UpdateAfterLoad": false
             },
             "File": {
                 "Hash": 2720994091,
                 "TimeStamp": 1404464628943280500,
-                "LastEditTime": 1404466251754328300
+                "LastEditTime": 1404910532925748700
             },
             "Texture": {
                 "FileFormat": "TGA",
+                "DataFormat": "Targa RGB RLE",
+                "HasAlpha": false,
                 "Width": 512,
                 "Height": 512,
-                "HasAlpha": false,
+                "Depth": 1,
+                "CubeFaces": 1,
+                "Images": 1,
                 "sRGB": false
             },
             "Transformations": {
@@ -803,24 +1462,30 @@
         "Textures/Sky/clear_morning_left.tga": {
             "AssetType": "Texture",
             "Common": {
+                "Subtype": "2D",
                 "Tags": "__NEW_ASSET__",
                 "Dependencies": [
 
                 ],
                 "Variants": [
 
-                ]
+                ],
+                "UpdateAfterLoad": false
             },
             "File": {
                 "Hash": 2818607714,
                 "TimeStamp": 1404464628948279500,
-                "LastEditTime": 1404466251784328600
+                "LastEditTime": 1404910532965749100
             },
             "Texture": {
                 "FileFormat": "TGA",
+                "DataFormat": "Targa RGB RLE",
+                "HasAlpha": false,
                 "Width": 512,
                 "Height": 512,
-                "HasAlpha": false,
+                "Depth": 1,
+                "CubeFaces": 1,
+                "Images": 1,
                 "sRGB": false
             },
             "Transformations": {
@@ -830,24 +1495,30 @@
         "Textures/Sky/clear_morning_right.tga": {
             "AssetType": "Texture",
             "Common": {
+                "Subtype": "2D",
                 "Tags": "__NEW_ASSET__",
                 "Dependencies": [
 
                 ],
                 "Variants": [
 
-                ]
+                ],
+                "UpdateAfterLoad": false
             },
             "File": {
                 "Hash": 2469899570,
                 "TimeStamp": 1404464628953278500,
-                "LastEditTime": 1404466251824329000
+                "LastEditTime": 1404910532995749400
             },
             "Texture": {
                 "FileFormat": "TGA",
+                "DataFormat": "Targa RGB RLE",
+                "HasAlpha": false,
                 "Width": 512,
                 "Height": 512,
-                "HasAlpha": false,
+                "Depth": 1,
+                "CubeFaces": 1,
+                "Images": 1,
                 "sRGB": false
             },
             "Transformations": {
@@ -857,24 +1528,30 @@
         "Textures/Sky/clear_morning_top.tga": {
             "AssetType": "Texture",
             "Common": {
+                "Subtype": "2D",
                 "Tags": "__NEW_ASSET__",
                 "Dependencies": [
 
                 ],
                 "Variants": [
 
-                ]
+                ],
+                "UpdateAfterLoad": false
             },
             "File": {
                 "Hash": 3754295486,
                 "TimeStamp": 1404464628958277500,
-                "LastEditTime": 1404466251864329400
+                "LastEditTime": 1404910533045749900
             },
             "Texture": {
                 "FileFormat": "TGA",
+                "DataFormat": "Targa RGB RLE",
+                "HasAlpha": false,
                 "Width": 512,
                 "Height": 512,
-                "HasAlpha": false,
+                "Depth": 1,
+                "CubeFaces": 1,
+                "Images": 1,
                 "sRGB": false
             },
             "Transformations": {
@@ -884,24 +1561,30 @@
         "Textures/UI/White.dds": {
             "AssetType": "Texture",
             "Common": {
+                "Subtype": "2D",
                 "Tags": "__NEW_ASSET__",
                 "Dependencies": [
 
                 ],
                 "Variants": [
 
-                ]
+                ],
+                "UpdateAfterLoad": false
             },
             "File": {
                 "Hash": 2620166608,
                 "TimeStamp": 1402440766000000000,
-                "LastEditTime": 1404410211640316400
+                "LastEditTime": 1404910537235791800
             },
             "Texture": {
                 "FileFormat": "DDS",
+                "DataFormat": "X8R8G8B8",
+                "HasAlpha": false,
                 "Width": 8,
                 "Height": 8,
-                "HasAlpha": false,
+                "Depth": 1,
+                "CubeFaces": 1,
+                "Images": 1,
                 "sRGB": false
             },
             "Transformations": {
@@ -912,7 +1595,7 @@
     "TrackedFiles": {
         "Meshes/track11k.vmesh_data/materials.xml": {
             "Hash": 0,
-            "TimeStamp": 1403532527251169800,
+            "TimeStamp": 1404464628882292700,
             "LastEditTime": 1404126914885971600
         },
         "Models/charlie.model_data/materials.xml": {
@@ -949,6 +1632,11 @@
             "Hash": 0,
             "TimeStamp": 1402440766000000000,
             "LastEditTime": 1404126914885971600
+        },
+        "shaders/MobileShadersFog.ShaderLib": {
+            "Hash": 0,
+            "TimeStamp": 0,
+            "LastEditTime": 1408371468957087100
         },
         "Textures/blubber.dds": {
             "Hash": 0,

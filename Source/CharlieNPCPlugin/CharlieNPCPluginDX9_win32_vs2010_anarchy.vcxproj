@@ -27,10 +27,10 @@
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
-    <Import Project="$(VISION_SDK)\Build\Vision\PropertySheets\EnginePluginDX9_win32_vs2010_anarchyDebugDLL.props" />
+    <Import Project="$(VISION_SDK)\Build\Vision\PropertySheets\EnginePluginDX9_win32_vs2010_anarchyDebug.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Dev|win32'">
-    <Import Project="$(VISION_SDK)\Build\Vision\PropertySheets\EnginePluginDX9_win32_vs2010_anarchyDevDLL.props" />
+    <Import Project="$(VISION_SDK)\Build\Vision\PropertySheets\EnginePluginDX9_win32_vs2010_anarchyDev.props" />
   </ImportGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
     <CharacterSet>MultiByte</CharacterSet>
@@ -65,18 +65,20 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
     <Link>
       <AdditionalDependencies>lua100D.lib;BaseD.lib;VisionD.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>..\..\Lib\win32_vs2010_anarchy\debug_dll;$(VISION_SDK)/Lib/win32_vs2010_anarchy\debug_dll;$(HAVOK_THIRDPARTY_DIR)/redistsdks/Lua/5.1.4/lib;$(DXSDK_DIR)/Lib/x86;$(HAVOK_THIRDPARTY_DIR)/redistsdks/fmod/4.44.23/lib/win</AdditionalLibraryDirectories>
-      <ImportLibrary>..\..\Lib\win32_vs2010_anarchy\debug_dll\$(TargetName).lib</ImportLibrary>
+      <AdditionalLibraryDirectories>..\..\Lib\win32_vs2010_anarchy\debug;$(VISION_SDK)/Lib/win32_vs2010_anarchy\debug;$(HAVOK_THIRDPARTY_DIR)/redistsdks/Lua/5.1.4/lib;$(DXSDK_DIR)/Lib/x86;$(HAVOK_THIRDPARTY_DIR)/redistsdks/fmod/4.44.23/lib/win</AdditionalLibraryDirectories>
+      <ImportLibrary>..\..\Lib\win32_vs2010_anarchy\debug\$(TargetName).lib</ImportLibrary>
+      <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
     </Link>
     <ClCompile>
       <PreprocessorDefinitions>CHARLIEPLUGIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Dev|win32'">
     <Link>
       <AdditionalDependencies>lua100.lib;Base.lib;Vision.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>..\..\Lib\win32_vs2010_anarchy\dev_dll;$(VISION_SDK)/Lib/win32_vs2010_anarchy\dev_dll;$(HAVOK_THIRDPARTY_DIR)/redistsdks/Lua/5.1.4/lib;$(DXSDK_DIR)/Lib/x86;$(HAVOK_THIRDPARTY_DIR)/redistsdks/fmod/4.44.23/lib/win</AdditionalLibraryDirectories>
-      <ImportLibrary>..\..\Lib\win32_vs2010_anarchy\dev_dll\$(TargetName).lib</ImportLibrary>
+      <AdditionalLibraryDirectories>..\..\Lib\win32_vs2010_anarchy\dev;$(VISION_SDK)/Lib/win32_vs2010_anarchy\dev;$(HAVOK_THIRDPARTY_DIR)/redistsdks/Lua/5.1.4/lib;$(DXSDK_DIR)/Lib/x86;$(HAVOK_THIRDPARTY_DIR)/redistsdks/fmod/4.44.23/lib/win</AdditionalLibraryDirectories>
+      <ImportLibrary>..\..\Lib\win32_vs2010_anarchy\dev\$(TargetName).lib</ImportLibrary>
     </Link>
     <ClCompile>
       <PreprocessorDefinitions>CHARLIEPLUGIN_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
