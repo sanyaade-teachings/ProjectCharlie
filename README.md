@@ -4,6 +4,9 @@ ProjectCharlie
 Project Charlie is a suite of samples utilising common assets that demonstrate different approaches to incorporating Havok Animation Studio assets in a C++ environment.  
 *__Important:__ The local Data folder is not held within this repository. Please use the RUN_ONCE.bat to create this directory from your own SDK.*
 
+
+**v2014.0.5** *This sample was written for ProjectAnarchy version 2014.0.5 and requires minor migration adjustments for use with the current 2014.1.0 release until the complient 2014.1.0 upgrade commited.*
+
 ---
 
 Included is an Animation Studio project **(“CharlieHAT.hkp”)** which contains two identical behaviour graphs, one that incorporates a LUA control script and one that doesn’t.  
