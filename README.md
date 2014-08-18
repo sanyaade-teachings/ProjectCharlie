@@ -5,8 +5,9 @@ Project Charlie is a suite of samples utilising common assets that demonstrate d
 *__Important:__ The local Data folder is not held within this repository. Please use the RUN_ONCE.bat to create this directory from your own SDK.*
 
 
-**v2014.0.5** *This sample was written for ProjectAnarchy version 2014.0.5 and will require some minor migration adjustments for use with the current 2014.1.0 release until such time that a complient upgrade is commited.*
 
+##  Now upgraded for use with Project Anarchy 2014.1.0 - *subject to further testing* ##
+ 
 ---
 
 Included is an Animation Studio project **(“CharlieHAT.hkp”)** which contains two identical behaviour graphs, one that incorporates a LUA control script and one that doesn’t.  
